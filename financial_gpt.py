@@ -129,8 +129,8 @@ if __name__ == "__main__":
     all_keywords = ", ".join(keywords)
     prompt_news_summary = build_prompt_for_summary(preprocessed_news_df, all_keywords)
 
-    # news_summry_response = llm.invoke(prompt_news_summary)
-    # print(news_summry_response.content)
+    news_summry_response = llm.invoke(prompt_news_summary)
+    print(news_summry_response.content)
     
     # Markdown(news_summry_response.content)
 
