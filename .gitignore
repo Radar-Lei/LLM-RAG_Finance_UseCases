@@ -1,3 +1,4 @@
 docs/
 *.csv
 .DS_Store
+*.ipynb
