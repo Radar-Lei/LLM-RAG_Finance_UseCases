@@ -32,7 +32,7 @@ from langchain_deepseek import ChatDeepSeek
 from IPython.display import display, Markdown
 
 # 定义常量
-APP_TITLE = "基金组合优化系统"
+APP_TITLE = "基金组合优化AI助手"
 THEME_COLOR = QColor(172, 52, 32, 230)  # 红色主题 #AC3420 with 90% opacity
 THEME_COLOR_STR = "#AC3420"
 WINDOW_WIDTH = 1200

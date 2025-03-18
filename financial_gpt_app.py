@@ -23,7 +23,7 @@ from langchain.chains import RetrievalQA
 from langchain.prompts import PromptTemplate
 
 # 定义常量
-APP_TITLE = "金融资讯分析系统"
+APP_TITLE = "金融资讯分析AI助手"
 THEME_COLOR = QColor(172, 52, 32, 230)  # #AC3420 with 90% opacity
 THEME_COLOR_STR = "#AC3420"
 WINDOW_WIDTH = 1200

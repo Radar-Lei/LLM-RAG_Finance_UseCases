@@ -299,7 +299,7 @@ if __name__ == "__main__":
     template = """
     根据以下财务数据和税收法规，为当前查询用户分析并提供个性化的节税建议：
     其他用户财务数据：{question}
-    当前查询用户信息{context}
+    当前查询用户信息: {context}
     回答：
         """
     PROMPT = PromptTemplate(input_variables=["context", "query"], template=template)
