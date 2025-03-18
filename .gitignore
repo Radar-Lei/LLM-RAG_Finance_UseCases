@@ -2,3 +2,5 @@ docs/
 *.csv
 .DS_Store
 *.ipynb
+chroma_db/
+*.png
