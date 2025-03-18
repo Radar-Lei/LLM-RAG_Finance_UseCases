@@ -4,3 +4,4 @@ docs/
 *.ipynb
 chroma_db/
 *.png
+chinese_financial_chroma_db/
